@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="photos">
+
+            <!-- 이건 참고하고 수정해서 지울거 -->
+            <div
+            id="image1"
+            class="photo-frame"
+            onmouseover="hideText(1)"
+            onmouseout="showText(1)"
+            onclick="alertText(1)"
+        >
+            <span id="desc1" class="photo-description">
+                첫 번째 이미지 설명
+            </span>
+        </div>
+        <div
+            id="image2" class="photo-frame"
+            onmouseover="hideText(2)"
+            onmouseout="showText(2)"
+            onclick="alertText(2)"
+        >
+            <span id="desc2" class="photo-description">
+                두 번째 이미지 설명
+            </span>
+        </div>
+        <div
+            id="image3"
+            class="photo-frame"
+            onmouseover="hideText(3)"
+            onmouseout="showText(3)"
+            onclick="alertText(3)"
+        >
+            <span id="desc3" class="photo-description">
+            세 번째 이미지 설명
+        </span>
+        </div>
+
+            <!--    이게 사용할 거
+                 <div id="image1" class="photo-frame">
+                <span id="desc1" class="photo-description">
+                    첫 번째 이미지 설명
+                </span>
+            </div>
+            <div id="image2" class="photo-frame">
+                <span id="desc2" class="photo-description">
+                    두 번째 이미지 설명
+                </span>
+            </div>
+            <div id="image3" class="photo-frame">
+                <span id="desc3" class="photo-description">
+                    세 번째 이미지 설명
+                </span>
+            </div> -->
+            <div id="image4" class="photo-frame">
+                <span id="desc4" class="photo-description">
+                    네 번째 이미지 설명
+                </span>
+            </div>
+            <div class="photo-frame">
+                <iframe class="video"
+                 src="https://www.youtube.com/embed/MFI0jEDzNU0"
+                frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="f-title"> POGO CLUB </p>
+          <p class="f-date">2023.01.06 ~ 2023.01.07</p>
+        </div>
+        </div>
+</body>
+<script src="main.js"></script>
+</html>
