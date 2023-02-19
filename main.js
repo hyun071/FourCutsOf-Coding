@@ -1,6 +1,7 @@
 // 텍스트가 보여지는 기능
 // 1. 몇 번째 사진에 마우스가 올라갔는지 확인(if문)
 // 2. 해당 사진을 찾아 hideText class를 지워주고, showText는 삽입해줌
+// js 복습 겸 기능 부분 배운대로 보기 쉽게 수정하기!
 function showText(number) {
     if (number === 1) {
 
